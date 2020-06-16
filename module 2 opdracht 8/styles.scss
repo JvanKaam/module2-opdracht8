@@ -1,0 +1,39 @@
+@mixin square ($square-color){
+    background-color: $square-color;
+    display: flex;
+    padding: 100px;
+    width: 200px;
+}
+
+@mixin circle ($circle-color) {
+    background-color:$circle-color;
+    display: flex;
+    padding: 100px;
+    border-radius: 100px;
+}
+
+
+.div__square {
+    @include square (purple);
+}
+
+.div__circle {
+   @include circle (rgb(165, 152, 152) );
+}
+
+.div__square-white {
+    @include square (rgb(165, 152, 152));
+}
+
+.div__circle-purple {
+    @include circle (purple)
+}
+
+
+
+
+
+
+
+
+

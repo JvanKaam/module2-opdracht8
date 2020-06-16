@@ -1,0 +1,36 @@
+.div__square {
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
+  width: 200px;
+}
+
+.div__circle {
+  background-color: #a59898;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
+  border-radius: 100px;
+}
+
+.div__square-white {
+  background-color: #a59898;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
+  width: 200px;
+}
+
+.div__circle-purple {
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=styles.css.map */
